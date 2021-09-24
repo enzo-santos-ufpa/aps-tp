@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.image_intro {
+    height: 75vh;
+    width: 100%;
+    margin-top: -18px;
+}
+
+.title {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.introduction {
+    font-size: 16pt;
+    line-height: 2;
+    color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30vh;
+    margin-inline-end: 30vh;
+}
+
+#map {
+    height: 60vh;
+    width: 142vh;
+    display: inherit;
+    border: 2px solid #000;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30vh;
+    margin-inline-end: 30vh;
+}   
