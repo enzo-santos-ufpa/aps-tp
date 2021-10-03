@@ -10,12 +10,7 @@ body {
     overflow-y : scroll;
 }
 
-/*.teste {
-    margin-left: 1px;
-}*/
-
 #menu {
-    /*margin-top:-64px;*/
     list-style: none;
     text-align: right;
     font-family: sans-serif;
@@ -23,12 +18,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     background-color: rgb(36, 35, 35);
-    border: 1px groove rgba(199, 2, 18, 0.986);
-}
-
-#menu li .teste {
-    width: 30px;
-    background-color: white;
+    border: 1px  groove rgba(199, 2, 18, 0.986);
 }
 
 #menu li {
@@ -55,14 +45,33 @@ body {
     animation: 2s moveLogo;
 }
 
-#catchphrase p {
+#aboutTitle p, #titleDevs p, #titleCredits p {
     margin-top: 20px;
-    text-align: center;
-    font-size: 14pt;
-    color: rgb(251, 255, 7);
+    text-align: left;
+    font-size: 16pt;
     font-family: DejaVu Sans Mono, monospace;
+    color: rgba(199, 2, 18, 0.986);
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 55vh;
+    margin-inline-end: 50vh;
+}
+
+#aboutUs p, #aboutDevs p, #aboutCredits p {
+    margin: 20px;
+    text-align: left;
+    font-size: 14pt;
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(251, 255, 7);
     line-height: 1.5;
     letter-spacing: 2px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 55vh;
+    margin-inline-end: 50vh;
 }
 
 #ftr {
